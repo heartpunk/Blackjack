@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 class Game
   @@players = []
   @@deck = ((2..10).to_a << %w(A K Q J)).flatten * 4
